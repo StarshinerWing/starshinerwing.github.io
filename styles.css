@@ -77,7 +77,18 @@ body {
   transition: background-color 0.2s ease;
 }
 
-.contact-btn:hover {
+.contact-btn {
+  background-color: #4a7c2a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 4px dotted #5C3202;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.contact-btn:hover, .about-btn:hover {
   background-color: #5e9c36;
 }
 
