@@ -9,19 +9,19 @@
 }
 .pinned-image-left {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 150px;
-  height: auto;
+  left: 0;
+  width: auto;
+  height: 100vh;
   z-index: -999;
   border-right: 10px solid #000000;
+  float: left;
 }
 .pinned-image-left {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 150px;
-  height: auto;
+  right: 0;
+  width: auto;
+  height: 100vh;
   z-index: -999;
   border-left: 10px solid #000000;
+  float: right;
 }
