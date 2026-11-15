@@ -1,28 +1,28 @@
 .pinned-image-left {
   border-right: 2px solid #000000;
-}
-.pinned-image-right {
-  border-left: 2px solid #000000;
-}
-.pinned-image-left img {
   position: fixed;
   top: 0;
   left: 0;
-  width: auto;
   height: 100vh;
   z-index: -999;
-  -webkit-mask-image: linear-gradient(to right, black 50%, transparent 50%);
-  mask-image: linear-gradient(to right, black 50%, transparent 100%);
 }
-.pinned-image-right img {
+.pinned-image-right {
+  border-left: 2px solid #000000;
   position: fixed;
   top: 0;
   right: 0;
-  width: auto;
   height: 100vh;
   z-index: -999;
+}
+.pinned-image-left img {
+  width: auto;
+  -webkit-mask-image: linear-gradient(to right, black 50%, transparent 50%);
+  mask-image: linear-gradient(to right, black 50%, transparent 50%);
+}
+.pinned-image-right img {
+  width: auto;
   -webkit-mask-image: linear-gradient(to left, black 50%, transparent 50%);
-  mask-image: linear-gradient(to left, black 50%, transparent 100%);
+  mask-image: linear-gradient(to left, black 50%, transparent 50%);
 }
 h1 {
 color: red;
