@@ -3,40 +3,83 @@ html {
   margin: 0;
   padding: 0;
 }
+
 .pinned-image-left {
-  border-right: 2px dotted #472E0F;
+  border-right: 4px dotted #472E0F;
   position: fixed;
   top: 0;
   left: 0;
   height: 100vh;
   z-index: -999;
 }
+
 .pinned-image-right {
-  border-left: 2px dotted #472E0F;
+  border-left: 4px dotted #472E0F;
   position: fixed;
   top: 0;
   right: 0;
   height: 100vh;
   z-index: -999;
 }
+
 .pinned-image-left img {
   top: 0;
   left: 0;
   height: 100vh;
   z-index: -998;
-  width: auto;
+  width: 100px;
   -webkit-mask-image: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.25) 100%);
   mask-image: linear-gradient(to right, black 50%, rgba(0, 0, 0, 0.25) 100%);
 }
+
 .pinned-image-right img {
   top: 0;
   right: 0;
   height: 100vh;
   z-index: -998;
-  width: auto;
+  width: 100px;
   -webkit-mask-image: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.25) 100%);
   mask-image: linear-gradient(to left, black 50%, rgba(0, 0, 0, 0.25) 100%);
 }
-h1 {
-color: black;
+
+.top-header {
+  position: relative;
+  z-index: 10;
+  margin: 0 100px;
+  padding: 20px 30px;
+  background-color: #1b2e0f;
+  border-bottom: 4px dotted #472E0F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.top-header h1 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.contact-btn {
+  background-color: #4a7c2a;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 18px;
+  border: 4px dotted #472E0F;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.contact-btn:hover {
+  background-color: #5e9c36;
+}
+
+.container {
+  position: relative;
+  z-index: 10;
+  margin: 0 100px;
+  padding: 25px 30px;
+  color: #ffffff;
+}
+
