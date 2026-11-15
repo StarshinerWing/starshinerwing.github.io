@@ -10,7 +10,7 @@ body {
 }
 
 .pinned-image-left {
-  border-right: 4px dotted #855518;
+  border-right: 4px dotted #5C3202;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,7 +19,7 @@ body {
 }
 
 .pinned-image-right {
-  border-left: 4px dotted #855518;
+  border-left: 4px dotted #5C3202;
   position: fixed;
   top: 0;
   right: 0;
@@ -53,7 +53,7 @@ body {
   margin: 0 104px;
   padding: 20px 30px;
   background-color: #1b2e0f;
-  border-bottom: 4px dotted #855518;
+  border-bottom: 4px dotted #5C3202;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,6 +62,7 @@ body {
 .top-header h1 {
   color: #ffffff;
   margin: 0;
+  font-family: 'Brush Script MT', cursive;
   font-size: 1.8rem;
 }
 
@@ -70,7 +71,7 @@ body {
   color: #ffffff;
   text-decoration: none;
   padding: 10px 18px;
-  border: 4px dotted #855518;
+  border: 4px dotted #5C3202;
   border-radius: 6px;
   font-weight: bold;
   transition: background-color 0.2s ease;
