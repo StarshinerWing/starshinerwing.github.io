@@ -125,9 +125,9 @@ body {
 
 .sticker1 {
   position: absolute;
-  top: -18px;  
-  left: -18px; 
-  width: 60px; 
+  top: -36px;  
+  left: -36px; 
+  width: 90px; 
   height: auto;
   transform: rotate(-12deg); 
   pointer-events: none; 
