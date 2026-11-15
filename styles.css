@@ -1,19 +1,21 @@
 
 .pinned-image-left {
   position: fixed;
-  top: 0
+  top: 0;
   left: 0;
   width: auto;
   height: 100vh;
   z-index: -999;
-  border-right: 10px solid #000000;
+  border-right: 2px solid #000000;
+  mask-image: linear-gradient(to right, black 50%, transparent 100%);
 }
 .pinned-image-right {
   position: fixed;
-  top: 0
+  top: 0;
   right: 0;
   width: auto;
   height: 100vh;
   z-index: -999;
-  border-left: 10px solid #000000;
+  border-left: 2px solid #000000;
+  mask-image: linear-gradient(to left, black 50%, transparent 100%);
 }
