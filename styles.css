@@ -1,27 +1,19 @@
 
-.gradient-image {
-  width: 592px;
-  height: 126px;
-  background-image: 
-    linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
-    url(images/lunamothbanner.png);
-  background-size: cover;
-}
 .pinned-image-left {
   position: fixed;
+  top: 0
   left: 0;
   width: auto;
   height: 100vh;
   z-index: -999;
   border-right: 10px solid #000000;
-  float: left;
 }
-.pinned-image-left {
+.pinned-image-right {
   position: fixed;
+  top: 0
   right: 0;
   width: auto;
   height: 100vh;
   z-index: -999;
   border-left: 10px solid #000000;
-  float: right;
 }
