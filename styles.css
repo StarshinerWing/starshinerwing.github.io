@@ -9,6 +9,8 @@ body {
   padding: 0;
 }
 
+/* i spent so long trying to figure out these stupid gradiented borders on the site it was not worth it oh my god but i will be damned if im not going to use them at this point */
+
 .pinned-image-left {
   border-right: 4px dotted #5C3202;
   position: fixed;
@@ -107,6 +109,7 @@ body {
 }
 
 .blog-post {
+  position: relative;
   background-color: #1b2e0f;
   border: 4px dotted #855518;
   border-radius: 8px;
@@ -118,6 +121,16 @@ body {
   margin-top: 0;
   margin-bottom: 6px;
   color: #ffffff;
+}
+
+.sticker1 {
+  position: absolute;
+  top: -18px;  
+  left: -18px; 
+  width: 60px; 
+  height: auto;
+  transform: rotate(-12deg); 
+  pointer-events: none; 
 }
 
 .post-date {
