@@ -7,3 +7,21 @@
     url(images/lunamothbanner.png);
   background-size: cover;
 }
+.pinned-image-left {
+   width: 100vw;
+  height: 640vh;
+  background-image: url(images/leafysidebarsleft.png);
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pinned-image-right {
+   width: 100vw;
+  height: 640vh;
+  background-image: url(images/leafysidebarsright.png);
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
