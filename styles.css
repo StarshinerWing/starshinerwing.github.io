@@ -1,3 +1,8 @@
+html, body {
+  background-color: #264016;
+  margin: 0;
+  padding: 0;
+}
 .pinned-image-left {
   border-right: 2px solid #000000;
   position: fixed;
@@ -15,15 +20,25 @@
   z-index: -999;
 }
 .pinned-image-left img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -998;
   width: auto;
   -webkit-mask-image: linear-gradient(to right, black 50%, transparent 50%);
   mask-image: linear-gradient(to right, black 50%, transparent 50%);
 }
 .pinned-image-right img {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  z-index: -998;
   width: auto;
   -webkit-mask-image: linear-gradient(to left, black 50%, transparent 50%);
   mask-image: linear-gradient(to left, black 50%, transparent 50%);
 }
 h1 {
-color: red;
+color: black;
 }
