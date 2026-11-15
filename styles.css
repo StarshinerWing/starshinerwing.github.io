@@ -22,7 +22,7 @@ html, body {
 .pinned-image-left img {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 0;
   height: 100vh;
   z-index: -998;
   width: auto;
