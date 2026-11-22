@@ -2,31 +2,50 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Starshiner Blogs</title>
+    <title>Contact - Starshiner Blogs</title>
     <link rel="stylesheet" href="styles.css?v=17">
   </head>
   <body>
     <div class="pinned-image-left">
-      <img src="images/leafysidebarsleft.png">
+      <img src="images/leafysidebarsleft.png" alt="">
     </div>
     <div class="pinned-image-right">
-      <img src="images/leafysidebarsright.png">
+      <img src="images/leafysidebarsright.png" alt="">
     </div>
 
     <header class="top-header">
       <h1>Starshiner Blogs</h1>
       <div class="header-buttons">
-        <a role="link" aria-disabled="true" class="about-btn">About Me</a>
-        <a href="mailto:starshinerwing@gmail.com" class="contact-btn">Contact!</a>
+        <a href="starshinerwing.github.io/index" class="posts-btn">Posts</a>
+        <a href="starshinerwing.github.io/about" class="about-btn">About Me</a>
+        <a href="starshinerwing.github.io/projects" class="project-btn">Projects</a>
+        <a role="link" aria-disabled="true" class="disabled-btn">Contact!</a>
       </div>
     </header>
 
     <main class="container">
-      <article class="blog-post">
-        <img src="images/moth1.png" class="sticker1">
-        <h2>Welcome to Starshiner Blogs!</h2>
-        <p class="post-date">November 15, 2026</p>
-        <p>test</p>
-  </article>
+      <section class="blog-post contact-card">
+        <img src="images/newmoth2.png" class="stickers sticker2" alt="">
+        <h2>Where to Find Me</h2>
+        <p>Hey! Need to contact me about something? I'm available on Discord and BlueSky, or you can shoot me an email!</p>
+
+        <div class="contact-links">
+          <a href="mailto:starshinerwing@gmail.com" class="contact-item email">
+            <img src="images/gmail.png" alt="" class="contact-image">
+            <span>starshinerwing@gmail.com</span>
+          </a>
+
+          <a href="https://bsky.app" target="_blank" rel="noopener noreferrer" class="contact-item bluesky">
+            <img src="images/bluesky.png" alt="" class="contact-image">
+            <span>@starshinerwing.bsky.social</span>
+          </a>
+
+          <div class="contact-item discord">
+            <img src="images/discord.png" alt="" class="contact-image">
+            <span>starshinerwing</span>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
