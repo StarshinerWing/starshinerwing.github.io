@@ -191,6 +191,14 @@ body {
   transform: rotate(-21deg); 
 }
 
+.sticker6 {
+  transform: rotate(-26deg); 
+}
+
+.sticker7 {
+  transform: rotate(-33deg); 
+}
+
 .post-date {
   font-size: 0.85rem;
   color: #b5c9a8;
@@ -249,5 +257,49 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 6px;
+}
+
+.workshop-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+
+.workshop-thumb {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid transparent;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.workshop-thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.workshop-thumb:hover {
+  transform: translateY(-4px);
+  border-color: #66c0f4;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.35);
+}
+
+.title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.title-row h2 {
+  margin: 0;
+}
+
+.title-icon {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
 }
 
